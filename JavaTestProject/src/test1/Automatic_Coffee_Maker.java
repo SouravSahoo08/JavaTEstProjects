@@ -1,4 +1,5 @@
-package tests1;
+package test1;
+
 
 import java.util.Scanner;
 
@@ -9,13 +10,9 @@ public class Automatic_Coffee_Maker {
 	static private String[] S = { "hot and sour", "veg corn", "tomato soup", "Spicy tomato soup" };
 	static private String[] B = { "hot chocolate", "badam drink", "badam pista" };
 
-	void m1() {
-		System.out.println("kjnaeirng");
-	}
-
 	public static void main(String[] args) throws InterruptedException {
 		welcome_Menu();
-
+		
 	}
 
 	static Scanner in = new Scanner(System.in);
@@ -23,7 +20,7 @@ public class Automatic_Coffee_Maker {
 	public static void welcome_Menu() throws InterruptedException {
 		String choice1 = null;
 		System.out.println("-------WELCOME TO CCD!!--------");
-
+		
 		System.out.println("enter type of drink you want: ");
 
 		choice1 = in.next().toLowerCase();
